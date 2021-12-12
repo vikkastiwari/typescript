@@ -6,7 +6,7 @@ var b;
 var c;
 var d;
 var e = [1, 2, 3, 4];
-var f = [1, 1.0, "vikas", true];
+var f = [1, false, 1.0, "vikas", true];
 var ColorRed = 0;
 var ColorBlue = 1;
 var ColorGreen = 2;

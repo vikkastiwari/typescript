@@ -7,7 +7,7 @@ let b: boolean;
 let c: string;
 let d: any;
 let e: number[] = [1, 2, 3, 4];
-let f: any[] = [1, 1.0, "vikas", true];
+let f: any[] = [1, false, 1.0, "vikas", true];
 
 const ColorRed = 0;
 const ColorBlue = 1;
