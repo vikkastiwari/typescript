@@ -37,4 +37,14 @@ function addAndHandle( n1: number, n2: number, cb: ( num: number ) => void ) {
 addAndHandle( 1, 2, ( result ) => {
     console.log(result);
     
-})
+} )
+
+// Unknown and Never types
+
+let userInput: unknown;
+userInput = 5;
+userInput = 'vikas';
+
+let user: string;
+// if we assign userInput to user it gives error as unknown type is more stricter than unknown type.
+// user = userInput;
