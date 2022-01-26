@@ -1,6 +1,6 @@
 const person = {
-    "name": "vikas",
-    "age":20
+    name: "vikas",
+    age:20
 }
 
 //! when you hover person.age you get something like
