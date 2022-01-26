@@ -9,3 +9,4 @@ number1 = 4;
 // when you hover ts infere's the type of the variable
 const number2 = 4;
 let number3 = '4';
+const comein = false;
