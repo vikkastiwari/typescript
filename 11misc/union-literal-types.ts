@@ -1,6 +1,9 @@
+// type aliases
+type combine = number | string; // union type
+
 function combine(
-  input1: number | string,
-  input2: number | string,
+  input1: combine,
+  input2: combine,
   resultConversion: 'as-number' | 'as-text' // literal types
 ) {
   let result;
