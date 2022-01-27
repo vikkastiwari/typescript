@@ -17,14 +17,15 @@ class Point{
         // code...
     }
 
+    // getter
     get x() {
         return this._x;
     }
 
+    // setter
     set x( value ) {
         if ( value < 0 ) {
             throw new Error("Invalid Value: Value cannot be negative.");
-            
         }
         this._x = value;
     }
